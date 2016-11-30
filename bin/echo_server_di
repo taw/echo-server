@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require_relative "../lib/echo_server_di"
+
+server = EchoServerDI.new
+server.run!
