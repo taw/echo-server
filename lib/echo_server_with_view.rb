@@ -15,14 +15,6 @@ module EchoServerWithView
       end
       @view.say_goodbye
     end
-
-    def greeting_sayer
-      GreetingsSayer.new(@output)
-    end
-
-    def goodbye_sayer
-
-    end
   end
 
   class View
